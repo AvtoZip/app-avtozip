@@ -1,0 +1,14 @@
+# PyCharm
+/.idea/
+.DS_Store
+
+# Log files
+*.log
+
+# npm
+/node_modules/
+
+# WebPack output
+/dist/
+
+
