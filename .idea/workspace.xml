@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="19202f0d-117f-4067-bbd1-1e23709b5520" name="Default" comment="" />
+    <list default="true" id="19202f0d-117f-4067-bbd1-1e23709b5520" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/images/about-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/images/about-2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/images/bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/images/h1-bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/images/map.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/images/social-small.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/images/social.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/images/team/Brunton.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/images/team/Doe.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/images/team/Nobriga.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/images/team/Pittsley.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/images/team/Rousselle.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/images/team/Shoff.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/images/team/Simser.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/images/team/Tondrea.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/images/team/Venuti.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/images/team/Wollman.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/styles.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/variables.css" />
+    </list>
     <ignored path="app-avtozip.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
