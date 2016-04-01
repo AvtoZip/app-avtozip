@@ -1,0 +1,17 @@
+{
+  "extends": ["airbnb", "plugin:react/recommended"],
+  "plugins": [
+    "react"
+  ],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true,
+      "modules": true
+    }
+  },
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true
+  }
+}
