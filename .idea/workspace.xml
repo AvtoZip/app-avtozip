@@ -2,28 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19202f0d-117f-4067-bbd1-1e23709b5520" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/images/about-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/images/about-2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/images/bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/images/h1-bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/images/map.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/images/social-small.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/images/social.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/images/team/Brunton.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/images/team/Doe.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/images/team/Nobriga.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/images/team/Pittsley.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/images/team/Rousselle.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/images/team/Shoff.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/images/team/Simser.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/images/team/Tondrea.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/images/team/Venuti.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/images/team/Wollman.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/styles.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/variables.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="app-avtozip.iws" />
     <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -138,6 +121,8 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="F:\Program Files\nodejs\node.exe" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
@@ -336,7 +321,7 @@
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>F:\Users\GoshaInk\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -356,9 +341,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -399,6 +384,14 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
