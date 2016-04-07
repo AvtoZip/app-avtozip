@@ -5,10 +5,13 @@
 # Log files
 *.log
 
-# npm
-/node_modules/
-
 # WebPack output
 /dist/
+
+# NodeEnv
+/env/
+
+# npm
+/node_modules/
 
 
