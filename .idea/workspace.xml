@@ -1,7 +1,184 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="19202f0d-117f-4067-bbd1-1e23709b5520" name="Default" comment="">
+    <list default="true" id="19202f0d-117f-4067-bbd1-1e23709b5520" name="Default" comment="Issue 7 - test add bootstrap">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/Gruntfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/grunt/.jshintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/grunt/bs-commonjs-generator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/grunt/bs-glyphicons-data-generator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/grunt/bs-lessdoc-parser.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/grunt/bs-raw-files-generator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/grunt/configBridge.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/grunt/sauce_browsers.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/affix.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/alert.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/button.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/carousel.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/collapse.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dropdown.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/modal.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/popover.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/scrollspy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/tab.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/tooltip.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/transition.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/less/alerts.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/less/badges.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/less/bootstrap.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/less/breadcrumbs.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/less/button-groups.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/less/buttons.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/less/carousel.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/less/close.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/less/code.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/less/component-animations.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/less/dropdowns.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/less/forms.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/less/glyphicons.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/less/grid.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/less/input-groups.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/less/jumbotron.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/less/labels.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/less/list-group.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/less/media.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/less/mixins.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/less/mixins/alerts.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/less/mixins/background-variant.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/less/mixins/border-radius.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/less/mixins/buttons.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/less/mixins/center-block.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/less/mixins/clearfix.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/less/mixins/forms.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/less/mixins/gradients.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/less/mixins/grid-framework.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/less/mixins/grid.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/less/mixins/hide-text.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/less/mixins/image.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/less/mixins/labels.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/less/mixins/list-group.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/less/mixins/nav-divider.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/less/mixins/nav-vertical-align.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/less/mixins/opacity.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/less/mixins/pagination.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/less/mixins/panels.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/less/mixins/progress-bar.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/less/mixins/reset-filter.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/less/mixins/reset-text.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/less/mixins/resize.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/less/mixins/responsive-visibility.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/less/mixins/size.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/less/mixins/tab-focus.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/less/mixins/table-row.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/less/mixins/text-emphasis.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/less/mixins/text-overflow.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/less/mixins/vendor-prefixes.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/less/modals.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/less/navbar.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/less/navs.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/less/normalize.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/less/pager.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/less/pagination.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/less/panels.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/less/popovers.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/less/print.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/less/progress-bars.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/less/responsive-embed.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/less/responsive-utilities.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/less/scaffolding.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/less/tables.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/less/theme.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/less/thumbnails.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/less/tooltip.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/less/type.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/less/utilities.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/less/variables.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/less/wells.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/bootstrap/.csscomb.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/bootstrap/.csslintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/bootstrap/alerts.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/bootstrap/badges.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/bootstrap/bootstrap.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/bootstrap/breadcrumbs.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/bootstrap/button-groups.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/bootstrap/buttons.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/bootstrap/carousel.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/bootstrap/close.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/bootstrap/code.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/bootstrap/component-animations.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/bootstrap/dropdowns.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/bootstrap/forms.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/bootstrap/glyphicons.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/bootstrap/grid.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/bootstrap/input-groups.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/bootstrap/jumbotron.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/bootstrap/labels.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/bootstrap/list-group.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/bootstrap/media.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/bootstrap/mixins.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/bootstrap/modals.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/bootstrap/navbar.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/bootstrap/navs.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/bootstrap/normalize.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/bootstrap/pager.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/bootstrap/pagination.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/bootstrap/panels.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/bootstrap/popovers.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/bootstrap/print.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/bootstrap/progress-bars.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/bootstrap/responsive-utilities.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/bootstrap/scaffolding.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/bootstrap/tables.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/bootstrap/theme.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/bootstrap/thumbnails.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/bootstrap/tooltip.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/bootstrap/type.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/bootstrap/utilities.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/bootstrap/variables.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/bootstrap/wells.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/styles.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/variables.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/css/bootstrap-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/css/bootstrap-theme.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/css/bootstrap-theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/css/bootstrap.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/css/styles.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/css/variables.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/images/about-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/images/about-2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/images/bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/images/h1-bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/images/map.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/images/social-small.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/images/social.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/images/team/Brunton.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/images/team/Doe.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/images/team/Nobriga.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/images/team/Pittsley.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/images/team/Rousselle.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/images/team/Shoff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/images/team/Simser.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/images/team/Tondrea.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/images/team/Venuti.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/images/team/Wollman.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/js/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/js/bootstrap.min.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="app-avtozip.iws" />
@@ -23,18 +200,7 @@
     <favorites_list name="app-avtozip" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -75,8 +241,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -95,26 +259,10 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app-avtozip" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app-avtozip" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="less" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -341,9 +489,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -382,31 +530,5 @@
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>
