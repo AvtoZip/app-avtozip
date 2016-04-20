@@ -13,7 +13,9 @@
    | Node | 3.5 |
    | npm | 1.9 |
    | WebPack | 1.12 |
+   | bootstrap | 3.3 |
 
+   
 + **Loaders**
 
    | Component | Version |
