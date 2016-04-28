@@ -14,6 +14,9 @@
    | npm | 1.9 |
    | WebPack | 1.12 |
    | bootstrap | 3.3 |
+   | angular | | 1.5 |
+   |angular-route| |1.5|
+   |jquery| |2.2|
 
    
 + **Loaders**

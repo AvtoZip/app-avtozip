@@ -25,7 +25,10 @@
     "extract-text-webpack-plugin": "1.0.1",
     "html-webpack-plugin": "2.15.0",
     "style-loader": "0.13.1",
-    "webpack": "1.12.14"
+    "webpack": "1.12.14",
+	"angular": "1.5.5",
+	"angular-route": "1.5.5",
+	"jquery": "2.2.3"
   },
   "devDependencies": {
     "eslint": "2.5.3",
