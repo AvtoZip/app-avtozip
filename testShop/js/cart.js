@@ -1,4 +1,9 @@
-﻿function shoppingCart(cartName) {
+﻿"use strict";
+
+(function(window){
+
+//import
+function shoppingCart(cartName) {
     this.cartName = cartName;
     this.clearCart = false;
     this.checkoutParameters = {};
@@ -116,3 +121,6 @@ function cartItem(sku, name, price, quantity) {
     this.price = price * 1;
     this.quantity = quantity * 1;
 }
+    //----------------------------------------------------------export----------------------------------------------------
+    window["shoppingCart"] = shoppingCart;
+})(window);
