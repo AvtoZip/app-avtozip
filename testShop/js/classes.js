@@ -23,7 +23,8 @@ CCategoryStore.prototype.convertCategories = function(serverCategy) {
 
             if (chidls) {
                 rs[parent][row]['children'] = chidls;
-                rs[parent][row].label = rs[parent][row].name;
+                rs[parent][row].label = rs[parent][row].label;
+                rs[parent][row].id = rs[parent][row].id;
             }
 
             out.push(rs[parent][row]);

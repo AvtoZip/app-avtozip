@@ -4,7 +4,7 @@ var storeApp = angular.module('AngularStore', ['ngRoute', 'angularBootstrapNavTr
 
 storeApp.config(['$routeProvider', function ($routeProvider) {
     $routeProvider.
-    when('/store', {
+    when('/store/:category', {
         templateUrl: 'templates/store.htm'
     }).
     when('/products/:productSku', {
