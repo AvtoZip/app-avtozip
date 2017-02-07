@@ -3,6 +3,7 @@
 (function(window){
 
 //import
+
 function shoppingCart(cartName) {
     this.cartName = cartName;
     this.clearCart = false;

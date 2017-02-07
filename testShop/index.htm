@@ -1,5 +1,5 @@
 ﻿<!DOCTYPE html>
-<html lang="en" ng-app="AngularStore">
+<html lang="en" ng-app="shopApp">
 <head>
     <meta charset="utf-8">
     <meta name="description" content="">
@@ -66,8 +66,8 @@
                     <div class="col-sm-3">
                         <div class="left-sidebar">
                             <h2>Category</h2>
-                            <abn-tree tree-data="my_data" tree-control="my_tree" on-select="my_tree_handler(branch)" expand-level="2" initial-selection="Granny Smith">
-                            </abn-tree>
+                            <nav-tree tree-data="my_data" tree-control="my_tree" on-select="my_tree_handler(branch)" expand-level="2" initial-selection="Granny Smith">
+                            </nav-tree>
                         </div>
                     </div>
 
@@ -100,16 +100,19 @@
     <script src="../node_modules/angular/angular.min.js" type="text/javascript"></script>
     <script src="../node_modules/angular-route/angular-route.min.js"></script>
 
-    <script src="js/cart.js" type="text/javascript"></script>
-    <script src="js/app.js" type="text/javascript"></script>
+    <script src="js/shopApp.js" type="text/javascript"></script>
+    <!--<script src="js/shopApp.config.js" type="text/javascript"></script>-->
+    <script src="js/shopApp.routes.js" type="text/javascript"></script>
 
-    <script src="js/controllers/main_controller.js" type="text/javascript"></script>
-    <script src="js/controllers/category_controller.js" type="text/javascript"></script>
+    <script src="js/cart/cart.js" type="text/javascript"></script>
 
-    <script src="js/directives/menu_directive.js" type="text/javascript"></script>
+    <script src="js/content/content.module.js" type="text/javascript"></script>
+    <script src="js/content/controllers/main.controller.js" type="text/javascript"></script>
+    <script src="js/content/services/category.service.js" type="text/javascript"></script>
 
-    <script src="js/services/categoryService.js" type="text/javascript"></script>
-    <script src="js/classes.js" type="text/javascript"></script>
+    <script src="js/menu/directives/menu.directive.js" type="text/javascript"></script>
+
+    <script src="js/content/classes.js" type="text/javascript"></script>
 
     </body>
 </html>
