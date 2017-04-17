@@ -9,6 +9,10 @@
 
     function config($routeProvider) {
         $routeProvider.
+        when('/store/search:search', {
+            templateUrl: 'templates/store.htm',
+            controller: 'MainController'
+        }).
         when('/store/:category', {
             templateUrl: 'templates/store.htm',
             controller: 'MainController'

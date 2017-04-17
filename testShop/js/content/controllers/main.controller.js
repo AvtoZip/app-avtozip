@@ -9,10 +9,16 @@
 
 
     function MainController($scope, $routeParams, $http) {
-        var category = $routeParams.category;
-        var path = "http://localhost:8012/api/webstore_v1/product.json" + "?category=" + category;
-        var model = $http.get(path);
+        var queryStr;
+        if($routeParams.category){
+            queryStr = "?category=" + $routeParams.category;
+        }
+        else if($routeParams.search){
+            queryStr = "?query=" + $routeParams.search.split("?")[1];
+        }
 
+        var path = "http://localhost:8012/api/webstore_v1/product.json" + queryStr;
+        var model = $http.get(path);
         $scope.cart = new shoppingCart();
 
         model.success(function(personData) {
