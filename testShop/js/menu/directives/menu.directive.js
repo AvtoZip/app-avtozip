@@ -159,6 +159,14 @@
                                 tree_icon = attrs.iconExpand;
                             }
                         }
+
+                        var categoryIdMap = window["CCategoryStore"].idMap;
+                        var childId = branch.id;
+                        var fullPath = window["CCategoryStore"].idNameMap[childId];
+                        while(categoryIdMap[childId].parent){
+                            childId = window["CCategoryStore"].resourseIdMap[categoryIdMap[branch.id].parent];
+                            fullPath = window["CCategoryStore"].idNameMap[childId] + "/" + fullPath;
+                        }
                         scope.tree_rows.push({
                             level: level,
                             branch: branch,
@@ -166,7 +174,8 @@
                             classes: branch.classes,
                             tree_icon: tree_icon,
                             visible: visible,
-                            id: branch.id
+                            id: branch.id,
+                            fullPath: fullPath
                         });
                         if (branch.children != null) {
                             _ref = branch.children;
@@ -230,13 +239,16 @@
                 var t = this;
                 var callbackLoadCategory = function(data)
                 {
-                    window["CCategoryStore"].convertCategories(data.data.objects);
+                    if(data){
+                        window["CCategoryStore"].convertCategories(data.data.objects);
+                    }
+
                     t.categories = window["CCategoryStore"].store;
-                    scope.treeData = t.categories;
+                    scope.treeData = window["CCategoryStore"].store;
 
                     //scope.tree_rows = [];
                     scope.$watch('treeData', on_treeData_change, true);
-                    if (attrs.initialSelection != null) {
+                    /*if (attrs.initialSelection != null) {
                         for_each_branch(function (b) {
                             if (b.label === attrs.initialSelection) {
                                 return $timeout(function () {
@@ -244,10 +256,10 @@
                                 });
                             }
                         });
-                    }
+                    }*/
                 };
 
-                CategoryService.getCategories().then(callbackLoadCategory);
+                window["CCategoryStore"].getCategories(CategoryService, callbackLoadCategory);
             }
         };
 

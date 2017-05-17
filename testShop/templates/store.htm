@@ -1,26 +1,38 @@
 ﻿<div>
-        <div class="features_items"><!--features_items-->
+    <div class="features_items"><!--features_items-->
 
-            <h2 class="title text-center">Product</h2>
+        <h2 class="title text-center">Product</h2>
 
-            <div class="title text-right">
-                <a href="index.htm#/cart" title="go to shopping cart" ng-disabled="cart.getTotalCount() < 1">
-                    <i class="icon-shopping-cart" />
-                    <b>{{cart.getTotalCount()}}</b> items, <b>{{cart.getTotalPrice() | currency}}</b>
-                </a>
-            </div>
+        <div class="title text-right">
+            <a href="index.htm#/cart" title="go to shopping cart" ng-disabled="cart.getTotalCount() < 1">
+                <i class="icon-shopping-cart" />
+                <b>{{cart.getTotalCount()}}</b> items, <b>{{cart.getTotalPrice() | currency}}</b>
+            </a>
+        </div>
 
-            <div class="col-sm-4" ng-repeat="product in store | orderBy:'name'">
-                <div class="product-image-wrapper">
-                    <div class="single-products">
-                        <div class="productinfo text-center">
-                            <img src="img/product.jpg" alt="">
-                            <h2>{{product.price}}</h2>
-                            <p><a href="#/products/{{product.sku}}"><b>{{product.name}}</b></a><br /></p>
-                            <a href="" ng-click="cart.addItem(product.sku, product.name, product.price, 1)" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-                        </div>
+				<!--inside CATEGORY-->
+        <div ng-if="store.bCategory" class="col-sm-4" ng-repeat="category in store | orderBy:'name'">
+            <div class="product-image-wrapper">
+                <div class="single-products">
+                    <div class="productinfo text-center">
+                        <p><a href="#/catalog/{{category.fullPath}}"><b>{{category.name}}</b></a><br /></p>
                     </div>
                 </div>
             </div>
         </div>
+
+			<!--PRODUCTS-->
+        <div ng-if="!store.bCategory" class="col-sm-4" ng-repeat="product in store | orderBy:'name'">
+            <div class="product-image-wrapper">
+                <div class="single-products">
+                    <div class="productinfo text-center">
+                        <img src="img/product.jpg" alt="">
+                        <h2>{{product.price}}</h2>
+                        <p><a href="#/products/{{product.sku}}"><b>{{product.name}}</b></a><br /></p>
+                        <a href="" ng-click="cart.addItem(product.sku, product.name, product.price, 1)" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>

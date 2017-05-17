@@ -9,11 +9,11 @@
 
     function config($routeProvider) {
         $routeProvider.
-        when('/store/search:search', {
+        when('/catalog/search:search', {
             templateUrl: 'templates/store.htm',
             controller: 'MainController'
         }).
-        when('/store/:category', {
+        when('/catalog/:category*', {
             templateUrl: 'templates/store.htm',
             controller: 'MainController'
         }).
@@ -24,7 +24,7 @@
             templateUrl: 'templates/shoppingCart.htm'
         }).
         otherwise({
-            redirectTo: '/store'
+            redirectTo: '/catalog'
         });
     }
 })();
